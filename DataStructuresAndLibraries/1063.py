@@ -19,12 +19,12 @@ def rails_again(rail_a, rail_b):
 
 
 def test():
-    input_sequence = ['e', 't', 'd', 'rail_a']
-    desired_sequence = ['d', 'rail_a', 't', 'e']
+    input_sequence = ['e', 't', 'd', 'a']
+    desired_sequence = ['d', 'a', 't', 'e']
     assert rails_again(input_sequence, desired_sequence) == 'IIIRIRRR'
 
     input_sequence = ['o', 's', 't', 'rail_a', 'p']
-    desired_sequence = ['p', 'rail_a', 't', 'o', 's']
+    desired_sequence = ['p', 'a', 't', 'o', 's']
     assert rails_again(input_sequence, desired_sequence) == 'IIIIIRRR Impossible'
 
 
